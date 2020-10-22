@@ -8,7 +8,7 @@ library(ggplot2)
 
 
 
-File <- read.csv("C:/Users/aliri/Downloads/File1.csv", sep=";")
+File <- read.csv("https://github.com/aliriojsp/db/raw/master/File1.csv", sep=";")
 
 colnames_to_tags <- function(df){
   lapply(
